@@ -1,0 +1,13 @@
+{
+  "name": "Fulll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Peter Giromagny",
+  "license": "MIT",
+  "scripts": {
+    "algo:start": "cd fizzbuzz/ && node index.js",
+    "app:install": "cd ./user_search/ && yarn",
+    "app:start": "cd ./user_search/ && yarn start",
+    "app:test": "cd ./user_search/ && yarn test"
+  }
+}

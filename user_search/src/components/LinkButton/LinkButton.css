@@ -1,0 +1,22 @@
+button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--button-bg-color);
+}
+
+button:hover,
+.button__link:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.button__link {
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    background-color: var(--button-bg-color);
+}
